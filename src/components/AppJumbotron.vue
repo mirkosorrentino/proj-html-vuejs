@@ -25,7 +25,7 @@ export default {
     width: 100%;
     
     // debug
-    height: 300px;
     background-color: lightcoral;
+    height: 300px;
 }
 </style>
