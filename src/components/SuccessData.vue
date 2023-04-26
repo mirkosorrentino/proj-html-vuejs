@@ -1,19 +1,17 @@
 <script>
 export default {
-    name: "AppJumbotron",
+    name: "SuccessData",
     data(){
         return{
-            
+
         }
     }
 }
 </script>
 
 <template>
-    <div class="ms_jumbotron">
-        <div class="container">
-            Jumbotron
-        </div>
+    <div class="ms_success-data container">
+        Success Data
     </div>
 </template>
 
@@ -21,11 +19,10 @@ export default {
 @use "../styles/partials/mixins.scss" as *;
 @use "../styles/partials/variables.scss" as *;
 
-.ms_jumbotron {
-    width: 100%;
-    
+.ms_success-data {
     // debug
-    height: 300px;
-    background-color: lightcoral;
+    height: 200px;
+    background-color: lightslategrey;
+    margin-top: 20px;
 }
 </style>

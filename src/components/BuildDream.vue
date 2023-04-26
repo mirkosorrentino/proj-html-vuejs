@@ -1,19 +1,17 @@
 <script>
 export default {
-    name: "AppJumbotron",
+    name: "BuildDream",
     data(){
         return{
-            
+
         }
     }
 }
 </script>
 
 <template>
-    <div class="ms_jumbotron">
-        <div class="container">
-            Jumbotron
-        </div>
+    <div class="ms_build-dream container">
+        Build Dream
     </div>
 </template>
 
@@ -21,11 +19,9 @@ export default {
 @use "../styles/partials/mixins.scss" as *;
 @use "../styles/partials/variables.scss" as *;
 
-.ms_jumbotron {
-    width: 100%;
-    
+.ms_build-dream {
     // debug
-    height: 300px;
-    background-color: lightcoral;
+    height: 200px;
+    background-color: lightsalmon;
 }
 </style>
