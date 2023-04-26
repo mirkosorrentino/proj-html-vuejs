@@ -12,7 +12,15 @@ export default {
 <template>
     <div class="ms_jumbotron">
         <div class="container">
-            Jumbotron
+            <div class="d-flex">
+                <div class="ms_jumbotext">
+                    <h2>Complete Your Dreams in JavaS Programming</h2>
+                    <p>Learn any coding program in distance and for a reasonable fee. You don't have to struggle alone, you've got our assistance and help.</p>
+                </div>
+                <div class="ms_jumboimage">
+                    <img src="../assets/images/home-5-hero-image.png" alt="">
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -23,9 +31,10 @@ export default {
 
 .ms_jumbotron {
     width: 100%;
-    
-    // debug
-    background-color: lightcoral;
-    height: 300px;
+    background-color: $header-color;
+
+    img {
+        width: 70%;
+    }
 }
 </style>
