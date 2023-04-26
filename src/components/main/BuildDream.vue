@@ -16,8 +16,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use "../styles/partials/mixins.scss" as *;
-@use "../styles/partials/variables.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
 
 .ms_build-dream {
     // debug
