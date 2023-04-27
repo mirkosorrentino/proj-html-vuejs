@@ -9,7 +9,32 @@ export default {
 
     data(){
         return{
-
+            navList: [
+                {
+                    nameList: "Home", 
+                    url: "#"
+                },
+                {
+                    nameList: "Pages", 
+                    url: "#"
+                },
+                {
+                    nameList: "Courses", 
+                    url: "#"
+                },
+                {
+                    nameList: "Features", 
+                    url: "#"
+                },
+                {
+                    nameList: "Blog", 
+                    url: "#"
+                },
+                {
+                    nameList: "Shop", 
+                    url: "#"
+                },
+            ]
         }
     }
 }
@@ -25,42 +50,11 @@ export default {
                 
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <!-- home -->
-                        <li class="nav-item">
+                        <li class="nav-item" v-for="name in navList">
                             <a class="dropdown-toggle" href="#">
-                                Home
+                                {{ name.nameList }}
                             </a>
-                        </li> 
-                        <!-- pages -->
-                        <li class="nav-item">
-                            <a class="dropdown-toggle" href="#">
-                                Pages
-                            </a>
-                        </li> 
-                        <!-- courses -->
-                        <li class="nav-item">
-                            <a class="dropdown-toggle" href="#">
-                                Courses
-                            </a>
-                        </li> 
-                        <!-- features -->
-                        <li class="nav-item">
-                            <a class="dropdown-toggle" href="#">
-                                Features
-                            </a>
-                        </li> 
-                        <!-- blog -->
-                        <li class="nav-item">
-                            <a class="dropdown-toggle" href="#">
-                                Blog
-                            </a>
-                        </li> 
-                        <!-- shop -->
-                        <li class="nav-item">
-                            <a class="dropdown-toggle" href="#">
-                                Shop
-                            </a>
-                        </li> 
+                        </li>
                     </ul> 
                     <div class="input-group flex-nowrap">
                         <input type="text" class="form-control" placeholder="Search..." aria-label="Search" aria-describedby="addon-wrapping">
