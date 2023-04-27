@@ -17,7 +17,7 @@ export default {
 
 <template>
     <header class="p-2">
-        <div class="container">
+        <div class="ms_container">
             <div class="ms_nav-bar d-flex align-items-center justify-content-between">
                 <div class="ms_logo">
                     <img src="../assets/images/dark-logo.png" alt="">

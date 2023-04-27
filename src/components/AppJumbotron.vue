@@ -11,13 +11,13 @@ export default {
 
 <template>
     <div class="ms_jumbotron">
-        <div class="container">
-            <div class="d-flex">
-                <div class="ms_jumbotext">
+        <div class="ms_container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="ms_jumbotext col-5">
                     <h2>Complete Your Dreams in JavaS Programming</h2>
                     <p>Learn any coding program in distance and for a reasonable fee. You don't have to struggle alone, you've got our assistance and help.</p>
                 </div>
-                <div class="ms_jumboimage">
+                <div class="ms_jumboimage col-7">
                     <img src="../assets/images/home-5-hero-image.png" alt="">
                 </div>
             </div>
@@ -31,10 +31,12 @@ export default {
 
 .ms_jumbotron {
     width: 100%;
+    padding: 3rem 0;
     background-color: $header-color;
 
     img {
-        width: 70%;
+        width: 80%;
+        padding-left: 5rem;
     }
 }
 </style>

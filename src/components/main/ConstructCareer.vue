@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <div class="ms_construct-career container">
+    <div class="ms_construct-career ms_container">
         Construct Career
     </div>
 </template>

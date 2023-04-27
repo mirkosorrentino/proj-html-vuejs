@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <div class="ms_success-data container">
+    <div class="ms_success-data ms_container">
         Success Data
     </div>
 </template>

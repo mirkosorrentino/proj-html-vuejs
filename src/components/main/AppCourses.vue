@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <div class="ms_courses container">
+    <div class="ms_courses ms_container">
         Courses
     </div>
 </template>

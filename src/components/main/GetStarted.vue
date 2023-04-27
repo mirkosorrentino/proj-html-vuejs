@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <div class="ms_get-started container">
+    <div class="ms_get-started ms_container">
         Get Started
     </div>
 </template>

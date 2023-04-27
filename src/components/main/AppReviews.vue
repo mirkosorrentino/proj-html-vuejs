@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <div class="ms_app-reviews container">
+    <div class="ms_app-reviews ms_container">
         App Reviews
     </div>
 </template>

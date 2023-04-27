@@ -26,3 +26,19 @@ a {
 h2 {
     color: $blue-text;
 }
+
+.ms_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ms_subtitle {
+    text-transform: uppercase;
+    color: gray;
+    font-size: .8rem;
+}
+
+.ms_green-title {
+    font-weight: 300;
+    color: $green-btns;
+}

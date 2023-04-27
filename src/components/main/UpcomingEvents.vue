@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-    <div class="ms_upcoming-events container">
+    <div class="ms_upcoming-events ms_container">
         Upcoming Events
     </div>
 </template>

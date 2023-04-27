@@ -10,10 +10,10 @@ export default {
 </script>
 
 <template>
-    <div class="ms_register container">
+    <div class="ms_register ms_container">
         Register 1
     </div>
-    <div class="ms_register container">
+    <div class="ms_register ms_container">
         Register 2
     </div>
 </template>

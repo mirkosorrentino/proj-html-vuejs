@@ -50,7 +50,7 @@ main {
     width: 100%;
 
     // debug
-    background-color: lightgreen;
+    // background-color: lightgreen;
     padding: 20px 0;
 }
 </style>
