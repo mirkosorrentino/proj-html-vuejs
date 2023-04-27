@@ -22,7 +22,7 @@ export default {
 .ms_upcoming-events {
     // debug
     height: 200px;
-    background-color: white;
+    background-color: lightcoral;
     margin-top: 20px;
 }
 </style>
