@@ -1,40 +1,19 @@
 <script>
-import AppJumbotron from "./AppJumbotron.vue"
+import AppJumbotron from "./headerComponents/AppJumbotron.vue";
+import HeaderNavBar from "./headerComponents/HeaderNavBar.vue";
+
+import { store } from "../store"
 
 export default {
     name: "AppHeader",
     components: {
-        AppJumbotron
+        AppJumbotron,
+        HeaderNavBar
     },
 
     data(){
         return{
-            navList: [
-                {
-                    nameList: "Home", 
-                    url: "#"
-                },
-                {
-                    nameList: "Pages", 
-                    url: "#"
-                },
-                {
-                    nameList: "Courses", 
-                    url: "#"
-                },
-                {
-                    nameList: "Features", 
-                    url: "#"
-                },
-                {
-                    nameList: "Blog", 
-                    url: "#"
-                },
-                {
-                    nameList: "Shop", 
-                    url: "#"
-                },
-            ]
+            store
         }
     }
 }
@@ -47,15 +26,10 @@ export default {
                 <div class="ms_logo">
                     <img src="../assets/images/dark-logo.png" alt="">
                 </div>
-                
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item" v-for="name in navList">
-                            <a class="dropdown-toggle" href="#">
-                                {{ name.nameList }}
-                            </a>
-                        </li>
-                    </ul> 
+                        <HeaderNavBar :navList ="navList" v-for="navList in store.navList"/>
+                    </ul>
                     <div class="input-group flex-nowrap">
                         <input type="text" class="form-control" placeholder="Search..." aria-label="Search" aria-describedby="addon-wrapping">
                         <span class="input-group-text" id="addon-wrapping">@</span>

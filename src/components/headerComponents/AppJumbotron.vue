@@ -19,7 +19,7 @@ export default {
                     <button type="button" class="btn ms_btn">Download free E-book</button>
                 </div>
                 <div class="ms_jumboimage col-7">
-                    <img src="../assets/images/home-5-hero-image.png" alt="">
+                    <img src="../../assets/images/home-5-hero-image.png" alt="">
                 </div>
             </div>
         </div>
@@ -27,8 +27,8 @@ export default {
 </template>
 
 <style scoped lang="scss">
-@use "../styles/partials/mixins.scss" as *;
-@use "../styles/partials/variables.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
 
 .ms_jumbotron {
     width: 100%;
@@ -38,11 +38,6 @@ export default {
     img {
         width: 80%;
         padding-left: 5rem;
-    }
-
-    .ms_btn {
-        font-size: .8rem;
-        padding: 10px 20px
     }
 }
 </style>
