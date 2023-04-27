@@ -1,8 +1,8 @@
 <script>
 export default {
-    name: "HeaderNavBar",
+    name: "ExploreList1",
     props: {
-        navList: Object
+        exploreList1: Object
     },
 
     data(){
@@ -14,9 +14,9 @@ export default {
 </script>
 
 <template>                
-    <li class="nav-item">
-        <a class="dropdown-toggle" href="#">
-            {{ navList.nameList }}
+    <li class="ms_footer-list-item">
+        <a href="#">
+            {{ exploreList1.nameList }}
         </a>
     </li>                 
 </template>

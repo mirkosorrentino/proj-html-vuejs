@@ -26,5 +26,54 @@ export const store = reactive({
             nameList: "Shop", 
             url: "#"
         },
+    ],
+
+    exploreList1:[
+        {
+            nameList: "Start Here",
+            url: "#"
+        },
+        {
+            nameList: "Blog",
+            url: "#"
+        },
+        {
+            nameList: "About Us",
+            url: "#"
+        }
+    ],
+    
+    exploreList2: [
+        {
+            nameList: "Success story",
+            url: "#"
+        },
+        {
+            nameList: "Courses",
+            url: "#"
+        },
+        {
+            nameList: "Contact us",
+            url: "#"
+        }
+    ],
+
+    informationList: [ 
+        {
+            nameList: "Membership",
+            url: "#"
+        },
+        {
+            nameList: "Purchase guide",
+            url: "#"
+        },
+        {
+            nameList: "Privacy policy",
+            url: "#"
+        },
+        {
+            nameList: "Terms of services",
+            url: "#"
+        }
     ]
 })

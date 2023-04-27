@@ -1,12 +1,12 @@
 <script>
-import BuildDream from './main/BuildDream.vue';
-import ConstructCareer from './main/ConstructCareer.vue';
-import SuccessData from './main/SuccessData.vue';
-import AppCourses from './main/AppCourses.vue';
-import AppRegister from './main/AppRegister.vue';
-import UpcomingEvents from './main/UpcomingEvents.vue';
-import AppReviews from './main/AppReviews.vue';
-import GetStarted from './main/GetStarted.vue';
+import BuildDream from './mainComponents/BuildDream.vue';
+import ConstructCareer from './mainComponents/ConstructCareer.vue';
+import SuccessData from './mainComponents/SuccessData.vue';
+import AppCourses from './mainComponents/AppCourses.vue';
+import AppRegister from './mainComponents/AppRegister.vue';
+import UpcomingEvents from './mainComponents/UpcomingEvents.vue';
+import AppReviews from './mainComponents/AppReviews.vue';
+import GetStarted from './mainComponents/GetStarted.vue';
 
 export default {
     name: "AppMain",
