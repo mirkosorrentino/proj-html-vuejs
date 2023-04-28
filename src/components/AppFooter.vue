@@ -31,6 +31,12 @@ export default {
                         <div class="ms_footer-list-item">382 NE 191<span>st</span> # 87394, Miami, FL 33179-3899</div>
                         <div class="ms_footer-list-item">+1 (305) 547-9909 (9am - 5pm EST, Monday - Friday)</div>
                         <div class="ms_footer-list-item">support@maxcoach.com</div>
+                        <div class="d-flex ms_social-networks">
+                            <div class="ms_social-network"><a href=""><i class="fa-brands fa-square-facebook"></i></a></div>
+                            <div class="ms_social-network"><a href=""><i class="fa-brands fa-twitter"></i></a></div>
+                            <div class="ms_social-network"><a href=""><i class="fa-brands fa-instagram"></i></a></div>
+                            <div class="ms_social-network"><a href=""><i class="fa-brands fa-linkedin"></i></a></div>
+                        </div>
                     </div>
                 </div>
                 <div class="ms_footer-lists col-6 d-flex">
@@ -55,6 +61,7 @@ export default {
                 </div>
             </div>
             <div class="ms_footer-list-item text-center pt-5">2020 MaxCoach, All Rights Reserved</div>
+            <a href=""><i class="fa-solid fa-circle-arrow-up ms_arrow-up"></i></a>
         </div>
     </footer>
 </template>
@@ -64,7 +71,8 @@ export default {
 @use "../styles/partials/variables.scss" as *;
 
 footer {
-    width: 100%;    
+    width: 100%;
+    position: relative;   
 }
 
 h6 {
@@ -82,5 +90,20 @@ ul {
 
 .col-4 ul {
     padding-top: 59px;
+}
+.ms_social-networks {
+    font-size: 1.2rem;
+    color: gray;
+    padding-top: 1.5rem;
+}
+.ms_social-network {
+    padding-right: 1rem;
+}
+.ms_arrow-up {
+    font-size: 3rem;
+    color: $green-btns;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 </style>
