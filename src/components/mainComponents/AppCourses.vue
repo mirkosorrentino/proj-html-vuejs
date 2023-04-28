@@ -17,7 +17,7 @@ export default{
             <!-- first card -->
             <div class="col-4 p-3">
                 <div class="ms_courses-card">
-                    <img src="../../assets/images/course-02-480x298.jpg" alt="" class="pb-3">
+                    <img src="../../assets/images/course-02-480x298.jpg" alt="" class="pb-3 ms_course-photo">
                     <div class="ms_container">
                         <div class="ms_course-teacher">
                             <img src="../../assets/images/73ee246daf47502812ccefc84bf02898 (1).jpeg" alt="" class="ms_teacher-photo">
@@ -29,12 +29,13 @@ export default{
                             <span class="ms_teacher-lessons">50 students</span>
                         </div>
                     </div>
+                    <div class="ms_course-price">$40.<span class="ms_cents">00</span></div>
                 </div>
             </div>
             <!-- second photo -->
             <div class="col-4 p-3">
                 <div class="ms_courses-card">
-                    <img src="../../assets/images/course-02-480x298.jpg" alt="" class="pb-3">
+                    <img src="../../assets/images/course-02-480x298.jpg" alt="" class="pb-3 ms_course-photo">
                     <div class="ms_container">
                         <div class="ms_course-teacher">
                             <img src="../../assets/images/73ee246daf47502812ccefc84bf02898 (1).jpeg" alt="" class="ms_teacher-photo">
@@ -46,12 +47,13 @@ export default{
                             <span class="ms_teacher-lessons">50 students</span>
                         </div>
                     </div>
+                    <div class="ms_course-price">$40.<span class="ms_cents">00</span></div>
                 </div>
             </div>
             <!-- third card -->
             <div class="col-4 p-3">
                 <div class="ms_courses-card">
-                    <img src="../../assets/images/course-02-480x298.jpg" alt="" class="pb-3">
+                    <img src="../../assets/images/course-02-480x298.jpg" alt="" class="pb-3 ms_course-photo">
                     <div class="ms_container">
                         <div class="ms_course-teacher">
                             <img src="../../assets/images/73ee246daf47502812ccefc84bf02898 (1).jpeg" alt="" class="ms_teacher-photo">
@@ -63,12 +65,13 @@ export default{
                             <span class="ms_teacher-lessons">50 students</span>
                         </div>
                     </div>
+                    <div class="ms_course-price">$40.<span class="ms_cents">00</span></div>
                 </div>
             </div>
             <!-- fourth card -->
             <div class="col-4 p-3">
                 <div class="ms_courses-card">
-                    <img src="../../assets/images/course-02-480x298.jpg" alt="" class="pb-3">
+                    <img src="../../assets/images/course-02-480x298.jpg" alt="" class="pb-3 ms_course-photo">
                     <div class="ms_container">
                         <div class="ms_course-teacher">
                             <img src="../../assets/images/73ee246daf47502812ccefc84bf02898 (1).jpeg" alt="" class="ms_teacher-photo">
@@ -80,12 +83,13 @@ export default{
                             <span class="ms_teacher-lessons">50 students</span>
                         </div>
                     </div>
+                    <div class="ms_course-price">$40.<span class="ms_cents">00</span></div>
                 </div>
             </div>
             <!-- fifth card -->
             <div class="col-4 p-3">
                 <div class="ms_courses-card">
-                    <img src="../../assets/images/course-02-480x298.jpg" alt="" class="pb-3">
+                    <img src="../../assets/images/course-02-480x298.jpg" alt="" class="pb-3 ms_course-photo">
                     <div class="ms_container">
                         <div class="ms_course-teacher">
                             <img src="../../assets/images/73ee246daf47502812ccefc84bf02898 (1).jpeg" alt="" class="ms_teacher-photo">
@@ -97,12 +101,13 @@ export default{
                             <span class="ms_teacher-lessons">50 students</span>
                         </div>
                     </div>
+                    <div class="ms_course-price">$40.<span class="ms_cents">00</span></div>
                 </div>
             </div>
             <!-- sixth card -->
             <div class="col-4 p-3">
                 <div class="ms_courses-card">
-                    <img src="../../assets/images/course-02-480x298.jpg" alt="" class="pb-3">
+                    <img src="../../assets/images/course-02-480x298.jpg" alt="" class="pb-3 ms_course-photo">
                     <div class="ms_container">
                         <div class="ms_course-teacher">
                             <img src="../../assets/images/73ee246daf47502812ccefc84bf02898 (1).jpeg" alt="" class="ms_teacher-photo">
@@ -114,8 +119,12 @@ export default{
                             <span class="ms_teacher-lessons">50 students</span>
                         </div>
                     </div>
+                    <div class="ms_course-price">$40.<span class="ms_cents">00</span></div>
                 </div>
             </div>
+        </div>
+        <div class="text-center pt-4">
+            <button type="button" class="btn ms_btn">Download free E-book</button>
         </div>
     </div>
 </template>
@@ -126,6 +135,9 @@ export default{
 
 .ms_courses {
     padding-top: 3rem;
+    .ms_course-photo {
+        border-radius: 5px 5px 0 0;
+    }
     .ms_course-teacher {
         .ms_teacher-photo {
             width: 10%;
@@ -142,5 +154,23 @@ export default{
     font-size: .8rem;
     color: gray;
     padding-right: 2rem;
+}
+.ms_courses-card {
+    position: relative;
+}
+.ms_course-price {
+    font-weight: 500;
+    color: white;
+    display: inline-block;
+    background-color: $green-btns;
+    padding: 5px 10px;
+    border-radius: 0 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
+.ms_cents {
+    font-size: .8rem;
 }
 </style>
