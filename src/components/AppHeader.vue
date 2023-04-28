@@ -34,7 +34,7 @@ export default {
                     <i class="fa-solid fa-user"></i>
                     <div class="input-group flex-nowrap">
                         <input type="text" class="form-control" placeholder="Search..." aria-label="Search" aria-describedby="addon-wrapping">
-                        <span class="input-group-text" id="addon-wrapping">@</span>
+                        <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
                     </div>   
                 </nav>
             </div>

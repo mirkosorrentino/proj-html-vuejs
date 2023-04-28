@@ -18,14 +18,14 @@ export default {
             <div class="ms_subtitle pb-2">Dream with <span class="ms_bolder-subtitle">Maxcoach</span></div>
             <h2 class="pb-4">Construct A <span class="ms_green-title">Stunning</span> Career Perspective</h2>
             <div class="d-grid gap-2">
-                <button class="btn ms_btn text-start" type="button">Multiple Platform Supported for Teaching & Studying</button>
+                <button class="btn ms_btn text-start" type="button">Multiple Platform Supported for Teaching & Studying <i class="fa-solid fa-circle-minus"></i></button>
             </div>
             <div class="ms_construct-career-paragraph pt-4">MaxCoach supports the act of teaching and learning on multiple platforms like online or offline via material downloads. We know things aren't supposed to be devoured in a short time, you can always access our knowledge base from any advice.</div>
             <div class="d-grid gap-2">
-                <button class="btn text-start ms_falses-btn" type="button">Multiple Course Participation at the Same Time</button>
+                <button class="btn text-start ms_falses-btn" type="button">Multiple Course Participation at the Same Time <i class="fa-solid fa-circle-plus ms_plus"></i></button>
             </div>
             <div class="d-grid gap-2">
-                <button class="btn text-start ms_falses-btn" type="button">Track Study Progress & Deliver Prompt Feedback</button>
+                <button class="btn text-start ms_falses-btn" type="button">Track Study Progress & Deliver Prompt Feedback <i class="fa-solid fa-circle-plus ms_plus"></i></button>
             </div>
             
             
@@ -61,5 +61,15 @@ export default {
 }
 .ms_falses-btn {
     padding-top: 3rem;
+    position: relative;
+}
+
+i {
+    padding-left: 6rem;
+}
+.ms_plus {
+    position: absolute;
+    top: 55px;
+    right: 15px;
 }
 </style>

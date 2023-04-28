@@ -33,6 +33,12 @@ export default {
                 <div class="ms_review-profession">/ Freelancer</div>
             </div>
         </div>
+        <div class="text-center pt-5">
+            <i class="fa-solid fa-circle ms_blue-dot"></i>
+            <i class="fa-solid fa-circle ms_gray-dots"></i>
+            <i class="fa-solid fa-circle ms_gray-dots"></i>
+            <i class="fa-solid fa-circle ms_gray-dots"></i>
+        </div>
     </div>
 </template>
 
@@ -41,7 +47,7 @@ export default {
 @use "../../styles/partials/variables.scss" as *;
 
 .ms_app-reviews {
-    padding-top: 10rem;
+    padding-top: 8rem;
 
     .ms_review-photo {
         border-radius: 50%;
@@ -62,5 +68,16 @@ export default {
         font-size: .7rem;
         color: gray;
     }
+}
+
+.ms_blue-dot {
+    font-size: .8rem;
+    color: $blue-text;
+    padding-right: 10px;
+}
+.ms_gray-dots {
+    font-size: .7rem;
+    color: lightgray;
+    padding-right: 10px;
 }
 </style>

@@ -19,7 +19,7 @@ export default {
             <div class="ms_event-card col-6 d-flex p-4 justify-content-between"  v-for="event in store.events">
                 <div class="ms_main-info">
                     <div class="ms_place">
-                        {{ event.place }}
+                        <i class="fa-solid fa-location-dot"></i> {{ event.place }}
                     </div>
                     <div class="ms_event-name">
                         {{ event.eventName }}
@@ -38,6 +38,7 @@ export default {
                 </div>
             </div>
         </div>
+        <div class="text-center ms_invitation">Excited about our Event? <span class="ms_green-title">View all events <i class="fa-solid fa-arrow-right"></i></span></div>
     </div>
 </template>
 
@@ -64,5 +65,9 @@ export default {
     .ms_btn {
         padding: 3px 15px;
     }
+}
+.ms_invitation {
+    color: gray;
+    padding-top: 2rem;
 }
 </style>

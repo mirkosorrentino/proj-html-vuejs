@@ -58,10 +58,9 @@ i {
     right: 0;
     top: 30%;
     background-color: white;
-    padding: 5px;
 }
 .ms_symbol {
-    padding: 3px;
+    padding: 5px;
 }
 
 </style>

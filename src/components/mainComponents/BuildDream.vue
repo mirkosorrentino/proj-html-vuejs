@@ -26,7 +26,7 @@ export default {
                     Idea Discussion
                 </h5>
                 <p class="ms_card-paragraph">Get teamed up with the specialist who work and teach coding for years at famous universities.</p>
-                <a href="" class="ms_start-now">Start now</a>
+                <a href="" class="ms_start-now">Start now <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <!-- second card -->
             <div class="ms_card text-center p-3">
@@ -35,7 +35,7 @@ export default {
                     Web Development
                 </h5>
                 <p class="ms_card-paragraph">Learn to start building a webpage from scratch. You decide your own pace, course and speed.</p>
-                <a href="" class="ms_start-now">Start now</a>
+                <a href="" class="ms_start-now">Start now <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <!-- third card -->
             <div class="ms_card text-center p-3">
@@ -44,7 +44,7 @@ export default {
                     System Administration
                 </h5>
                 <p class="ms_card-paragraph">Get teamed up with the specialist who work and teach coding for years at famous universities.</p>
-                <a href="" class="ms_start-now">Start now</a>
+                <a href="" class="ms_start-now">Start now <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <!-- fourth card -->
             <div class="ms_card text-center p-3">
@@ -53,7 +53,7 @@ export default {
                     Graphic Design
                 </h5>
                 <p class="ms_card-paragraph">Get teamed up with the specialist who work and teach coding for years at famous universities.</p>
-                <a href="" class="ms_start-now">Start now</a>
+                <a href="" class="ms_start-now">Start now <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
     </div>
@@ -72,7 +72,7 @@ export default {
     padding-top: .6rem;
 }
 .ms_start-now {
-    font-weight: 500;
+    font-weight: 600;
     color: gray;
 }
 </style>

@@ -25,8 +25,8 @@ export default{
                         </div>
                         <div class="ms_courses-name">Learning to Write as a Professional Author</div>
                         <div class="ms_course-datas">
-                            <span class="ms_teacher-lessons">20 lessons</span>
-                            <span class="ms_teacher-lessons">50 students</span>
+                            <span class="ms_teacher-lessons"><i class="fa-regular fa-file"></i> 20 lessons</span>
+                            <span class="ms_teacher-lessons"><i class="fa-regular fa-user"></i> 50 students</span>
                         </div>
                     </div>
                     <div class="ms_course-price">$40.<span class="ms_cents">00</span></div>
@@ -43,8 +43,8 @@ export default{
                         </div>
                         <div class="ms_courses-name">Learning to Write as a Professional Author</div>
                         <div class="ms_course-datas">
-                            <span class="ms_teacher-lessons">20 lessons</span>
-                            <span class="ms_teacher-lessons">50 students</span>
+                            <span class="ms_teacher-lessons"><i class="fa-regular fa-file"></i> 20 lessons</span>
+                            <span class="ms_teacher-lessons"><i class="fa-regular fa-user"></i> 50 students</span>
                         </div>
                     </div>
                     <div class="ms_course-price">$40.<span class="ms_cents">00</span></div>
@@ -61,8 +61,8 @@ export default{
                         </div>
                         <div class="ms_courses-name">Learning to Write as a Professional Author</div>
                         <div class="ms_course-datas">
-                            <span class="ms_teacher-lessons">20 lessons</span>
-                            <span class="ms_teacher-lessons">50 students</span>
+                            <span class="ms_teacher-lessons"><i class="fa-regular fa-file"></i> 20 lessons</span>
+                            <span class="ms_teacher-lessons"><i class="fa-regular fa-user"></i> 50 students</span>
                         </div>
                     </div>
                     <div class="ms_course-price">$40.<span class="ms_cents">00</span></div>
@@ -79,8 +79,8 @@ export default{
                         </div>
                         <div class="ms_courses-name">Learning to Write as a Professional Author</div>
                         <div class="ms_course-datas">
-                            <span class="ms_teacher-lessons">20 lessons</span>
-                            <span class="ms_teacher-lessons">50 students</span>
+                            <span class="ms_teacher-lessons"><i class="fa-regular fa-file"></i> 20 lessons</span>
+                            <span class="ms_teacher-lessons"><i class="fa-regular fa-user"></i> 50 students</span>
                         </div>
                     </div>
                     <div class="ms_course-price">$40.<span class="ms_cents">00</span></div>
@@ -97,8 +97,8 @@ export default{
                         </div>
                         <div class="ms_courses-name">Learning to Write as a Professional Author</div>
                         <div class="ms_course-datas">
-                            <span class="ms_teacher-lessons">20 lessons</span>
-                            <span class="ms_teacher-lessons">50 students</span>
+                            <span class="ms_teacher-lessons"><i class="fa-regular fa-file"></i> 20 lessons</span>
+                            <span class="ms_teacher-lessons"><i class="fa-regular fa-user"></i> 50 students</span>
                         </div>
                     </div>
                     <div class="ms_course-price">$40.<span class="ms_cents">00</span></div>
@@ -124,7 +124,7 @@ export default{
             </div>
         </div>
         <div class="text-center pt-4">
-            <button type="button" class="btn ms_btn">Download free E-book</button>
+            <button type="button" class="btn ms_btn">View All Courses <i class="fa-solid fa-arrow-right"></i></button>
         </div>
     </div>
 </template>
