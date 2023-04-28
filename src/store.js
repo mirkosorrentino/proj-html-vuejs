@@ -75,5 +75,43 @@ export const store = reactive({
             nameList: "Terms of services",
             url: "#"
         }
+    ],
+    events: [
+        {
+            place: "Texas, US",
+            eventName: "StoryTelling Workshop",
+            day: "22",
+            month: "nov",
+        },
+        {
+            place: "New York, US",
+            eventName: "Painting Art Contest 2020",
+            day: "10",
+            month: "oct",
+        },
+        {
+            place: "Hamburg, Germany",
+            eventName: "International Art Fair 2020",
+            day: "23",
+            month: "nov",
+        },
+        {
+            place: "Illinois, US",
+            eventName: "Street Performance: Call for Artist",
+            day: "15",
+            month: "dec",
+        },
+        {
+            place: "Illinois, US",
+            eventName: "Consumer Food Safety Education Conference",
+            day: "22",
+            month: "jul",
+        },
+        {
+            place: "Dubai",
+            eventName: "How meditation improve your mental health?",
+            day: "12",
+            month: "aug",
+        },
     ]
 })
