@@ -1,6 +1,8 @@
 @import "bootstrap/scss/bootstrap";
 @import './partials/variables.scss';
 
+@import "/node_modules/@fortawesome/fontawesome-free/css/all.css";
+
 // RESET
 * {
     margin: 0;
@@ -22,6 +24,10 @@ a {
 }
 
 // COMMON
+
+body {
+    font-family: sans-serif;
+}
 
 h2 {
     color: $blue-text;

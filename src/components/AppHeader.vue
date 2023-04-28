@@ -30,6 +30,8 @@ export default {
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <HeaderNavBar :navList ="navList" v-for="navList in store.navList"/>
                     </ul>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-user"></i>
                     <div class="input-group flex-nowrap">
                         <input type="text" class="form-control" placeholder="Search..." aria-label="Search" aria-describedby="addon-wrapping">
                         <span class="input-group-text" id="addon-wrapping">@</span>
@@ -49,6 +51,8 @@ header {
     color: $blue-text;
     width: 100%;
     background-color: $header-color;
+    position: fixed;
+    z-index: 999;
 
     .ms_logo img {
         width: 50%;
@@ -70,5 +74,9 @@ input {
 span {
     border: 0;
     color: $green-btns;
+}
+
+i {
+    padding: 0 .7rem;
 }
 </style>
